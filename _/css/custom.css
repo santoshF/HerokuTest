@@ -1,0 +1,39 @@
+.tab-pane {
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	padding: 0.8em;
+}
+
+.loggedoff {
+	display: block;
+	background-color: #DDD;
+	background-image: url('/images/technovation.jpg');
+}
+
+.loggedin {
+	display: none;
+}
+
+.center-block {
+	margin: auto;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	top: 0;
+	right: 0;
+}
+
+.centered{
+    float: none;
+    margin: 0 auto;
+}
+
+div.row-fluid [class*="span"] .center-in-span { 
+   float: none; 
+   margin: 0 auto; 
+   text-align: center; 
+   display: block; 
+   width: auto; 
+   height: auto;
+}
